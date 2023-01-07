@@ -2,14 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
-      <module name="api" target="1.8" />
-      <module name="data-common" target="11" />
-      <module name="Social.api" target="1.8" />
-      <module name="Social.api.main" target="1.8" />
-      <module name="Social.api.test" target="1.8" />
-      <module name="Social.app" target="11" />
-      <module name="Social.data" target="11" />
-      <module name="Social.domain" target="11" />
+      <module name="social-mobile-kt.app" target="11" />
+      <module name="social-mobile-kt.data" target="11" />
+      <module name="social-mobile-kt.domain" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -12,7 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Social"
+rootProject.name = "social-mobile-kt"
 
 include ':app'
 include ':data'
