@@ -1,6 +1,5 @@
 package com.sergey.zhuravlev.mobile.social.di
 
-import com.sergey.zhuravlev.mobile.social.MainViewModel
 import com.sergey.zhuravlev.mobile.social.ui.chat.ChatListViewModel
 import com.sergey.zhuravlev.mobile.social.ui.current.CurrentProfileViewModel
 import com.sergey.zhuravlev.mobile.social.ui.login.LoginViewModel
@@ -34,10 +33,6 @@ val appModule = module {
 
   viewModel<LoginViewModel> {
     LoginViewModel(get(), get())
-  }
-
-  viewModel<MainViewModel> {
-    MainViewModel(get())
   }
 
 }

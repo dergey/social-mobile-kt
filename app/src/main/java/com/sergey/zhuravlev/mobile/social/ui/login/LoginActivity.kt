@@ -9,6 +9,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import androidx.appcompat.app.AppCompatActivity
 import com.sergey.zhuravlev.mobile.social.databinding.ActivityLoginBinding
+import com.sergey.zhuravlev.mobile.social.ui.home.HomeActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LoginActivity : AppCompatActivity() {
@@ -41,6 +42,7 @@ class LoginActivity : AppCompatActivity() {
 
     vm.isLogin.observe(this) { isLogin ->
       if (isLogin) {
+        HomeActivity.open(this)
         finish()
       }
     }

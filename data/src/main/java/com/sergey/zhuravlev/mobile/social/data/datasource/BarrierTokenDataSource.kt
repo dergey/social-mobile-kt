@@ -2,14 +2,12 @@ package com.sergey.zhuravlev.mobile.social.data.datasource
 
 import android.content.Context
 import android.content.SharedPreferences
-import android.util.Log
 import com.sergey.zhuravlev.mobile.social.data.api.SocialApi
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts
 import java.time.Instant
 import java.time.LocalDateTime
 import java.time.ZoneId
-import java.util.*
 
 class BarrierTokenDataSource(private val context: Context) {
 
@@ -20,12 +18,12 @@ class BarrierTokenDataSource(private val context: Context) {
       ?.let { SocialApi.setBearerToken(it) }
   }
 
-  fun getBarrierToken(): String? {
-    val settings: SharedPreferences =
-      context.getSharedPreferences(EXTRA_TOKEN, Context.MODE_PRIVATE)
-    val jwtToken = settings.getString(EXTRA_TOKEN, null)
+  fun isLogin(): Boolean {
+    return getJwtToken()?.takeIf { !isTokenExpired(it) }?.let { true } ?: false
+  }
 
-    return jwtToken?.takeIf { !isTokenExpired(it) }
+  fun getBarrierToken(): String? {
+    return getJwtToken()?.takeIf { !isTokenExpired(it) }
   }
 
   fun saveBarrierToken(token: String) {
@@ -60,6 +58,12 @@ class BarrierTokenDataSource(private val context: Context) {
     )
 
     return expiration.isBefore(LocalDateTime.now())
+  }
+
+  private fun getJwtToken(): String? {
+    val settings: SharedPreferences =
+      context.getSharedPreferences(EXTRA_TOKEN, Context.MODE_PRIVATE)
+    return settings.getString(EXTRA_TOKEN, null)
   }
 
   companion object {

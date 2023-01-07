@@ -27,17 +27,17 @@ class LoginViewModel(
   val loginFormState: LiveData<LoginFormState> = _loginFormState
 
   private val _isLogin = MutableLiveData<Boolean>().apply {
-    value = tokenDataSource.getBarrierToken() != null
+    value = tokenDataSource.isLogin()
   }
 
   val isLogin: LiveData<Boolean> = _isLogin
 
   fun login(email: String, password: String) {
     viewModelScope.launch {
-      Log.i("LoginViewModel", "Try to login...")
       val operation = authenticationRepository.authenticate(email, password)
       operation
         .takeIf { it.success }
+        .takeIf { tokenDataSource.isLogin() }
         ?.let { _isLogin.postValue(true) }
       operation
         .takeIf { !it.success }
