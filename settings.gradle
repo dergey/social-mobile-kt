@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "social-mobile-kt"
@@ -17,4 +18,3 @@ rootProject.name = "social-mobile-kt"
 include ':app'
 include ':data'
 include ':domain'
-include ':tuples'

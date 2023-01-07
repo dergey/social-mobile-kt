@@ -38,7 +38,6 @@ android {
 dependencies {
     implementation project(':domain')
     implementation project(':data')
-    implementation project(':tuples')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
@@ -49,8 +48,12 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
 
+    // DI:
     implementation 'io.insert-koin:koin-core:3.2.2'
     implementation 'io.insert-koin:koin-android:3.2.2'
+
+    // Tuples:
+    implementation 'com.github.dergey:tuples:0.0.1'
 
     // Room:
     implementation 'androidx.room:room-runtime:2.4.3'

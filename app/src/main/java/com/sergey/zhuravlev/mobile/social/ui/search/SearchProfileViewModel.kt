@@ -5,8 +5,8 @@ import androidx.paging.cachedIn
 import com.sergey.zhuravlev.mobile.social.domain.enums.RelationshipStatus
 import com.sergey.zhuravlev.mobile.social.domain.model.ErrorModel
 import com.sergey.zhuravlev.mobile.social.domain.repository.SearchRepository
-import com.sergey.zhuravlev.tuples.Tuple7
-import com.sergey.zhuravlev.tuples.Tuples
+import by.sergey.zhuravlev.tuples.Tuple7
+import by.sergey.zhuravlev.tuples.Tuples
 
 class SearchProfileViewModel(
   private val searchRepository: SearchRepository
