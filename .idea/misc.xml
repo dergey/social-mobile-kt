@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2675" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_background_image_view.xml" value="0.2675" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_button.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_button_danger.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_button_primary.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_card_layout.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_check_box_button.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_ic_round_add.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_shimmer_text_view.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/background_unread_count.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_account_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_asterisk_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_forum_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2675" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_moon_new_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_moon_new_fill_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_access_time_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_add_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_add_circle_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_arrow_back_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_delete_24.xml" value="0.281" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_no_accounts_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_person_add_alt_24.xml" value="0.248" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_person_add_disabled_24.xml" value="0.248" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_round_search_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/drawable/ic_shimmer_circle_24.xml" value="0.309" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/font/inter.xml" value="0.3927083333333333" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/actionbar_activity_message.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/activity_home.xml" value="0.32563405797101447" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/activity_login.xml" value="0.32563405797101447" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/activity_message_list.xml" value="0.2758152173913043" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/activity_profile.xml" value="0.5" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_chat_list.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_chat_list_alt.xml" value="0.35643115942028986" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_chats.xml" value="0.2921195652173913" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_current_profile.xml" value="0.2921195652173913" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_profile.xml" value="0.29030797101449274" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/fragment_search_profile.xml" value="0.33" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_chat.xml" value="0.1" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_circle_profile.xml" value="0.29030797101449274" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_friend.xml" value="0.29030797101449274" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_message.xml" value="0.67" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_message_image.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_searched_profile.xml" value="0.5" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/item_separator_message.xml" value="0.1" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/placeholder_circle_profile.xml" value="0.1" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/placeholder_message.xml" value="0.1" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/layout/placeholder_searched_profile.xml" value="0.5" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/menu/message_attachment_menu.xml" value="0.3625" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/menu/message_context_menu.xml" value="0.1" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/menu/search_appbar_menu.xml" value="0.5" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2675" />
+        <entry key="..\:/Projects/social-mobile-kt/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2675" />
+        <entry key="..\:/Projects/social-mobile-kt/data/src/main/res/layout/activity_login.xml" value="0.29347826086956524" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

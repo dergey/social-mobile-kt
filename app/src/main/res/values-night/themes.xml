@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Social" parent="Theme.AppCompat.DayNight">
+        <!-- Windows background color. -->
+        <item name="android:colorBackground">@color/background_color_night</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/shadow_primary_color_night</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Text color. -->
+        <item name="textColorPrimary">@color/white</item>
+        <item name="textColorSecond">@color/gray</item>
+        <item name="textColorBackground">@color/dark_gray</item>
+
+        <!-- Background color. -->
+        <item name="backgroundColorBackground">@color/background_color_night</item>
+        <item name="backgroundColorForeground">@color/foreground_color_night</item>
+        <item name="shimmerBackgroundColor">@color/shimmer_background_color_night</item>
+
+        <!-- Customize your theme here. -->
+        <item name="backgroundErrorLayoutColor">@color/error</item>
+        <item name="linkTextViewColor">@color/link_color_night</item>
+        <item name="headerTextViewColor">@color/header_color_night</item>
+        <item name="hintTextViewColor">@color/hint_color_night</item>
+        <item name="borderEditTextColor">@color/border_color_night</item>
+        <item name="borderFocusedEditTextColor">@color/focused_border_color_night</item>
+        <item name="buttonTextColor">@color/button_text_color_night</item>
+        <item name="backgroundButtonColor">@color/active_button_color_night</item>
+        <item name="backgroundDisableButtonColor">@color/disable_button_color_night</item>
+        <item name="backgroundPressedButtonColor">@color/pressed_active_button_color_night</item>
+        <item name="friendColor">@color/green</item>
+
+        <!-- Button colors -->
+        <item name="primaryButtonBackgroundColor">@color/active_button_color</item>
+        <item name="primaryDisableButtonBackgroundColor">@color/disable_button_color</item>
+        <item name="primaryPressedButtonBackgroundColor">@color/pressed_active_button_color</item>
+        <item name="dangerButtonBackgroundColor">@color/danger_button_background_color_night</item>
+        <item name="dangerDisableButtonBackgroundColor">@color/danger_disable_button_background_color_night</item>
+        <item name="dangerPressedButtonBackgroundColor">@color/danger_pressed_button_background_color_night</item>
+
+        <!-- Clickable colors -->
+        <item name="clickableTransparentSecondColor">@color/clickable_transparent_second_color_night</item>
+    </style>
+
+    <style name="Theme.Social.NoActionBar" parent="Theme.Social">
+        <item name="android:statusBarColor">@color/background_color_night</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

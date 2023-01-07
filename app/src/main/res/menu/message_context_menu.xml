@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/message_context_delete_item"
+        android:title="@string/message_action_delete"
+        android:icon="@drawable/ic_round_delete_24"
+        android:iconTint="@color/foreground_color"/>
+    <item
+        android:id="@+id/message_context_edit_item"
+        android:title="@string/message_action_edit"
+        android:icon="@drawable/ic_round_edit_24"
+        android:iconTint="@color/foreground_color"
+        android:visible="false"/>
+    <item
+        android:id="@+id/message_context_reply_item"
+        android:title="@string/message_action_reply"
+        android:icon="@drawable/ic_round_reply_24"
+        android:iconTint="@color/foreground_color"
+        android:visible="false"/>
+    <item
+        android:id="@+id/message_context_cancel_item"
+        android:title="@string/message_action_cancel"
+        android:icon="@drawable/ic_round_cancel_24"
+        android:iconTint="@color/foreground_color"
+        android:visible="false"/>
+</menu>

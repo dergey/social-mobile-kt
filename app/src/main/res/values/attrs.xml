@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common values-->
+    <attr name="textColorPrimary" format="reference" />
+    <attr name="textColorSecond" format="reference" />
+    <attr name="textColorBackground" format="reference" />
+
+    <!-- Background color-->
+    <attr name="backgroundColorBackground" format="reference" />
+    <attr name="backgroundColorForeground" format="reference" />
+    <attr name="shimmerBackgroundColor" format="reference" />
+
+    <!-- Other values-->
+    <attr name="backgroundErrorLayoutColor" format="reference" />
+    <attr name="textErrorLayoutColor" format="reference" />
+    <attr name="linkTextViewColor" format="reference" />
+    <attr name="headerTextViewColor" format="reference" />
+    <attr name="hintTextViewColor" format="reference" />
+    <attr name="borderEditTextColor" format="reference" />
+    <attr name="borderFocusedEditTextColor" format="reference" />
+    <attr name="buttonTextColor" format="reference" />
+    <attr name="friendColor" format="reference" />
+
+    <!-- Button -->
+    <!-- Button.Primary -->
+    <attr name="primaryButtonBackgroundColor" format="reference" />
+    <attr name="primaryPressedButtonBackgroundColor" format="reference" />
+    <attr name="primaryDisableButtonBackgroundColor" format="reference" />
+    <!-- Button.Danger -->
+    <attr name="dangerButtonBackgroundColor" format="reference" />
+    <attr name="dangerPressedButtonBackgroundColor" format="reference" />
+    <attr name="dangerDisableButtonBackgroundColor" format="reference" />
+    <!-- Button.Default -->
+    <attr name="backgroundButtonColor" format="reference" />
+    <attr name="backgroundPressedButtonColor" format="reference" />
+    <attr name="backgroundDisableButtonColor" format="reference" />
+
+    <!-- Clickable -->
+    <attr name="clickableTransparentPrimaryColor" format="reference" />
+    <attr name="clickableTransparentSecondColor" format="reference" />
+
+</resources>

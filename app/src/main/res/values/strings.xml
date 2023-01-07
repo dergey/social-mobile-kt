@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Social</string>
+
+    <!--  Titles  -->
+    <string name="title_profile">Profile</string>
+    <string name="title_chat_list">Chats</string>
+    <string name="title_search">Search</string>
+
+    <!--  Text View  -->
+    <string name="profile_joined_on">Joined on %1$s</string>
+    <string name="profile_last_seen">Last seen %1$s</string>
+    <string name="profile_horizontal_item_short_name">%1$s\n%2$s</string>
+    <string name="profile_item_short_name">%1$s %2$s</string>
+    <string name="message_image_text"><![CDATA[<Image>]]></string>
+    <string name="message_sticker_text"><![CDATA[<Sticker>]]></string>
+
+    <!-- Menu Item -->
+    <string name="attachment_image">Image</string>
+    <string name="attachment_sticker">Sticker</string>
+
+    <!--  Network enums  -->
+    <!--  +  Relationship enums  -->
+    <string name="relationship_status.none">None</string>
+    <string name="relationship_status.single">Single</string>
+    <string name="relationship_status.in_relationships">In relationships</string>
+    <string name="relationship_status.engaged">Engaged</string>
+    <string name="relationship_status.married">Married</string>
+    <string name="relationship_status.in_civil_marriage">In civil marriage</string>
+    <string name="relationship_status.in_love">In love</string>
+    <string name="message_action_delete">Delete</string>
+    <string name="message_action_edit">Edit</string>
+    <string name="message_action_cancel">Cancel</string>
+    <string name="message_action_reply">Reply</string>
+</resources>
